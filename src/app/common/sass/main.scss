@@ -1,0 +1,43 @@
+@import 'variables';
+
+body{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    min-height: 700px;
+    display: block;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    &::after{
+      position: absolute;
+      z-index: 3;
+      width: 100%;
+      height: 100%;
+      content: "";
+      display: block;
+      background: $background-color;
+      background: -moz-linear-gradient(top, $background-color 0%, #666666 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$background-color), color-stop(100%,#666666));
+      background: -webkit-linear-gradient(top, $background-color 0%,#666666 100%);
+      background: -o-linear-gradient(top, $background-color 0%,#666666 100%);
+      background: -ms-linear-gradient(top, $background-color 0%,#666666 100%);
+      background: linear-gradient(top, $background-color 0%, #666666 100%);
+      opacity: 0.8;
+    }
+}
+
+.wrap-dni{
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 46%;
+	z-index: 4;
+	.btn-accent{
+		background-color: $accent-color;
+		font-size: 2em;
+		font-weight: bold;
+	}
+}
