@@ -16,13 +16,13 @@ body {
     height: 100%;
     content: "";
     display: block;
-    background: #FEFEFE;
-    background: -moz-linear-gradient(top, #FEFEFE 0%, #666666 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FEFEFE), color-stop(100%, #666666));
-    background: -webkit-linear-gradient(top, #FEFEFE 0%, #666666 100%);
-    background: -o-linear-gradient(top, #FEFEFE 0%, #666666 100%);
-    background: -ms-linear-gradient(top, #FEFEFE 0%, #666666 100%);
-    background: linear-gradient(top, #FEFEFE 0%, #666666 100%);
+    background: #5ED8BE;
+    background: -moz-linear-gradient(top, #5ED8BE 0%, #666666 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5ED8BE), color-stop(100%, #666666));
+    background: -webkit-linear-gradient(top, #5ED8BE 0%, #666666 100%);
+    background: -o-linear-gradient(top, #5ED8BE 0%, #666666 100%);
+    background: -ms-linear-gradient(top, #5ED8BE 0%, #666666 100%);
+    background: linear-gradient(top, #5ED8BE 0%, #666666 100%);
     opacity: 0.8; }
 
 .wrap-dni {
@@ -32,7 +32,7 @@ body {
   left: 46%;
   z-index: 4; }
   .wrap-dni .btn-accent {
-    background-color: #FB0634;
+    background-color: #FC4605;
     font-size: 2em;
     font-weight: bold; }
 
